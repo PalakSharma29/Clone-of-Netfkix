@@ -1,0 +1,517 @@
+
+*{
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    height: 300px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.nav{
+    margin-left: -232px;
+    color: white;
+}
+
+.nav ul{
+    display: flex;
+    margin-left: 319px;
+    margin-top: -50px;
+    color: white;
+}
+
+.nav ul li{
+    margin-left: 30px;
+    padding-left: -154px;
+    list-style: none;
+    border-radius: 255px;
+    padding:7px;
+    border-color: maroon;
+    background-color: maroon;
+}
+
+.nav ul li:hover{
+      transform: scale(1.1);
+}
+
+.right-side{
+    /* margin-left: 426px;
+    margin-top: -38px; */
+    margin-left: 1108px;
+    margin-top: -50px;
+
+}
+
+.right-side input{
+    width: 92px;
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    padding-right: 8px;
+    margin-left: -19px;
+}
+
+.sign{
+    padding-left: 2px;
+}
+
+.image img{
+    width: 1359px;
+    height: 328px;
+    margin-top: 27px;
+}
+
+.content{
+    color: white;
+    margin-top: -264px;
+    margin-left: 620px;
+}
+
+.content h1{
+    font-size: 35px;
+}
+
+.content p{
+    font-size: 15px;
+    margin-top: -13px;
+}
+
+.content h5{
+    font-size: 15px;
+    margin-top: -2px;
+}
+
+input{
+    margin-left: 5px;
+    background-color: white;
+    width: 167px;
+    padding:2px;
+    height: 23px;
+}
+
+button{
+    color:white;
+    background-color: #8b0404;
+    width: 103px;
+    height: 26px;
+    margin-left: -6px;
+}
+
+button:hover{
+    background-color: rgb(235, 78, 78);
+    transform: scale(1.1);
+}
+
+.videos{
+    margin-top: 49px;
+    width: 1322px;
+}
+
+.videos img{
+    width: 390px;
+    height: 489px;
+    margin-left: 928px;
+    margin-top: -358px;
+}
+
+.video-container video{
+    width: 914px;
+    height: 488px;
+    margin-left: 10px;
+    margin-top: 40px;
+    object-fit: cover;
+}
+video{
+    height: 497px;
+    width: 1716px;
+}
+
+.name h2{
+    margin-top: -447px;
+    margin-left: 37px;
+    font-size: 2.5rem;
+    color: darkcyan;
+}
+
+.name h1{
+    margin-left: 25px;
+    font-size: 2.5rem;
+    color:orange;
+}
+
+.btn-1{
+    background-color: black;
+    margin-top: 73px;
+    margin-left: 83px;
+    font-size: 1rem;
+    border-radius: 44px;
+}
+
+.btn-2{
+    margin-left: 82px;
+    margin-top: 28px;
+    border-radius: 66px;
+    padding: 3px;
+    background-color: black;
+    font-size: 1rem;
+}
+
+.color-overplay{
+    background-color: #000;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.third{
+    margin-top: -6px;
+    margin-left: 378px;
+    width: 1201px;
+    height: 295px;
+}
+
+.third h2{
+    color: white;
+    margin-left: -365px;
+    margin-top: -2px;
+}
+
+.main-scroll{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+}
+
+.cover{
+    margin-left: -115px;
+    position: relative;
+    width: 90%;
+    height: 50%;
+    margin-top: -161px;
+}
+
+.cover::before{
+    position: absolute;
+    content: "";
+    left: -233px;
+    top: 0;
+    z-index: 99;
+    height: 252px;
+    width: 150px;
+    background-image: linear-gradient(90deg, black, transparent);
+}
+
+.cover::after{
+    position: absolute;
+    content: "";
+    right: -152px;
+    top: 0;
+    z-index: 99;
+    height: 252px;
+    width: 350px;
+    background-image: linear-gradient(-90deg, black, transparent);
+}
+
+.images{
+    margin-left: -220px;
+    height: 283px;
+    width: 1351px;
+    display: flex;
+    justify-content: left;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.child{
+    min-width: 231px;
+    height: 242px;
+    margin: 8px 7px;
+    cursor: pointer;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.images::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.main-scroll div i{
+    color: green;
+    font-size: 35px;
+    margin-left: -356px;
+    margin-top: -69px;
+}
+
+.main-scroll div i:hover{
+    color: yellow;
+}
+
+.main-scroll div span i{
+    color: green;
+    font-size: 35px;
+    margin-left: 166px;
+    margin-top: -69px;
+}
+
+.main-scroll div span:hover{
+    color: yellow;
+}
+
+.child-img{
+    width: 100%;
+    height: 100%;
+}
+
+.four{
+    background-color: lightpink;
+    width: 1020px;
+    margin-top: 203px;
+    margin-left: 384px;
+}
+
+.four h2{
+    color: white;
+    margin-left: -374px;
+    margin-top: -178px;
+}
+
+.main-scroll-2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+}
+
+.cover-2{
+    margin-left: -96px;
+    position: relative;
+    width: 90%;
+    height: 50%;
+    margin-top: -21px;
+}
+
+.cover-2::before{
+    position: absolute;
+    content: "";
+    left: -233px;
+    top: 0;
+    z-index: 99;
+    height: 252px;
+    width: 150px;
+    background-image: linear-gradient(90deg, black, transparent);
+}
+
+.cover-2::after{
+    position: absolute;
+    content: "";
+    /* right: -152px; */
+    right: -302px;
+    top: 0;
+    z-index: 99;
+    height: 252px;
+    width: 350px;
+    background-image: linear-gradient(-90deg, black, transparent);
+}
+
+.images-2{
+    margin-left: -220px;
+    height: 283px;
+    width: 1351px;
+    display: flex;
+    justify-content: left;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.child-2{
+    min-width: 231px;
+    height: 242px;
+    margin: 8px 7px;
+    cursor: pointer;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.images-2::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.main-scroll-2 div i{
+    color: green;
+    font-size: 35px;
+    margin-left: -356px;
+    margin-top: -69px;
+}
+
+.main-scroll-2 div i:hover{
+    color: yellow;
+}
+
+.main-scroll-2 div span i{
+    color: green;
+    font-size: 35px;
+    margin-top: -69px;
+    margin-left: 339px;
+}
+
+.main-scroll-2 div span:hover{
+    color: yellow;
+}
+
+.child-img-2{
+    width: 100%;
+    height: 100%;
+}
+
+.five{
+    width: 1020px;
+    margin-top: 203px;
+    margin-left: 384px;
+    margin-top: -10px;
+}
+
+.five h2{
+    color: white;
+    margin-left: -374px;
+    /* margin-top: -178px; */
+}
+
+.main-scroll-3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+}
+
+.cover-3{
+    margin-left: -96px;
+    position: relative;
+    width: 90%;
+    height: 50%;
+    margin-top: -14px;
+}
+
+.cover-3::before{
+    position: absolute;
+    content: "";
+    left: -233px;
+    top: 0;
+    z-index: 99;
+    height: 252px;
+    width: 150px;
+    background-image: linear-gradient(90deg, black, transparent);
+}
+
+.cover-3::after{
+    position: absolute;
+    content: "";
+    right: -302px;
+    top: 0;
+    z-index: 99;
+    height: 252px;
+    width: 350px;
+    background-image: linear-gradient(-90deg, black, transparent);
+}
+
+.images-3{
+    margin-left: -220px;
+    height: 283px;
+    width: 1351px;
+    display: flex;
+    justify-content: left;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.child-3{
+    min-width: 231px;
+    height: 242px;
+    margin: 8px 7px;
+    cursor: pointer;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.images-3::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+
+.main-scroll-3 div i{
+    color: green;
+    font-size: 35px;
+    margin-left: -356px;
+    margin-top: -69px;
+}
+
+.main-scroll-3 div i:hover{
+    color: yellow;
+}
+
+.main-scroll-3 div span i{
+    color: green;
+    font-size: 35px;
+    margin-top: -69px;
+    margin-left: 339px;
+}
+
+.main-scroll-3 div span:hover{
+    color: yellow;
+}
+
+.child-img-3{
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    margin-top: -3px;
+    color: white;
+    margin-left: 93px;
+    height: 363px;
+}
+
+.footer h1{
+    margin-top: 13px;
+    margin-bottom: 1px;
+    border-top: 4px solid grey;
+    width: 1325px;
+    padding-top: 27px;
+}
+
+.row{
+    margin-left: -1px;
+    margin-top: 67px;
+    display: flex;
+}
+
+.footer .col{
+    color:white;
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 50px;
+}
+
+.footer .col a{
+    display: block;
+    color: #777;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.footer .language-btn{
+    background-color: #000;
+    color: white;
+    padding: 4px;
+    border-color: white;
+}
